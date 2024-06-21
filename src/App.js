@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import Quiz from './components/Quiz';
-import NoMatch from './components/NoMatch';
+import Dashboard from './pages/Dashboard';
+import Quiz from './pages/Quiz';
+import NoMatch from './pages/NoMatch';
 
 function App() {
   return (
