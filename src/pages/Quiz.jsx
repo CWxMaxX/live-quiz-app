@@ -8,9 +8,9 @@ import ResultsView from '../components/ResultsView'
 const Quiz = () => {
   return (
     <div className='flex justify-center'>
-      <QuizInstructionsView />
+      {/* <QuizInstructionsView /> */}
       {/* <MCQView/> */}
-      {/* <ResultsView/> */}
+      <ResultsView/>
     </div>
   )
 }
